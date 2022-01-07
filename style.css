@@ -1,0 +1,38 @@
+#header_text {
+    font-size:30px;
+     font-weight:bold;
+     letter-spacing:2px;
+     color:white;
+}
+
+#header {
+    background-color:rgb(168, 205, 236);
+    margin-top:10px;
+    padding-bottom:30px;
+}
+
+
+body {
+    background-color:#a7f2e6;
+    overflow:hidden;
+}
+
+canvas {
+    border:2px solid black;
+    border-radius:25px;
+    background-color:white;
+    animation-name:glow;
+    animation-duration:3s;
+    animation-iteration-count:infinite;
+    margin-top:100px;
+}
+
+@keyframes glow{
+    from{
+        box-shadow:10px 10px 30px black;
+    }
+
+    to{
+        box-shadow:10px 10px 30px white;
+    }
+}
